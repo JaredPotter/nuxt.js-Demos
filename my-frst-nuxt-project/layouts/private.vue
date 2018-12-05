@@ -1,7 +1,7 @@
 <template>
   <div class="root-container">
     <div class="nav">
-      <nuxt-link to="/">Home</nuxt-link>
+      <nuxt-link to="/private/home">Home</nuxt-link>
       <nuxt-link to="/private/pictures">Pictures</nuxt-link>
       <nuxt-link to="/private/friends">Friends</nuxt-link>
       <nuxt-link to="/private/profile">Profile</nuxt-link>
@@ -15,6 +15,24 @@
 /* .root-container .VueToNuxtLogo {
   background: purple;
 } */
+
+.nav a {
+  height: 100px;
+  background: #3b8070;
+  text-decoration: none;
+  font-size: 36px;
+  padding: 15px;
+  color: white;
+  cursor: pointer;  
+}
+
+.nav .nuxt-link-exact-active {
+  background: #35495e;
+}
+
+.nav {
+  margin-bottom: 15px;
+}
 
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',

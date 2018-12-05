@@ -14,12 +14,12 @@ export default {
     created() {
         let url = document.URL;
 
-        this.url = url;
+        this.currentURL = url;
     },
     // mounted() {
     //     let url = document.URL;
 
-    //     this.url = url;
+    //     this.currentURL = url;
     // },
 }
 </script>

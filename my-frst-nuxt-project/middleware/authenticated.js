@@ -5,6 +5,6 @@ export default function ({
     let user = store.state.user;
  
     if(!user) {
-        redirect('/login') 
+        redirect('/login'); 
     }
 }

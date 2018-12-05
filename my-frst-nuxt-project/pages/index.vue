@@ -10,9 +10,6 @@
       </h2>
       <img src="~assets/space.jpg" alt="spaceman">
       <img src="~assets/tiny-icon.png" alt="tiny camera">
-      <h2 class="subtitle">
-        Current URL from Document: {{ currentURL }}
-      </h2>
       <no-ssr>
         <BrowserOnlyComponent/>
       </no-ssr>
