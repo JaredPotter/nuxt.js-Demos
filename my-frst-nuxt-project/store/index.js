@@ -18,7 +18,7 @@ export const actions = {
     login({commit}, {username, password}) {
 
         if(username == 'username' && password == 'password') {
-            commit('setUser', {});
+            commit('setUser', { 'user': 'Bobby Hill' });
         }
         
     },
